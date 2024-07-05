@@ -27,3 +27,7 @@ pattern = "**/{*.js,*.jsx,*.ts,*.tsx}"
 
   [languages.javascript.languageServer]
 start = "./node_modules/.bin/typescript-language-server --stdio"
+
+[[ports]]
+localPort = 5173
+externalPort = 80
